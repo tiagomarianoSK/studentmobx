@@ -1,16 +1,32 @@
-# studentmobx
+![mobix student](https://user-images.githubusercontent.com/54405709/110210365-15ac9180-7e70-11eb-9426-380f292f6890.png)
 
-estudo levantado sobre mobX
+# 🗓 MOBX CONTADOR
 
-## Getting Started
+#### Esse projeto eo mesmo do padrao que vem quando se inicia-se o projeto do [Flutter](https://flutter.dev/?gclid=CjwKCAiAm-2BBhANEiwAe7eyFFt_Zrh3hpukNQo9OE7hA3-F64SQgV1c8FWPYmVuQH1A7NYJon9tVxoCQx8QAvD_BwE&gclsrc=aw.ds), é apenas um contador, mais utilizando o MobX.
 
-This project is a starting point for a Flutter application.
+### ✅ Features
 
-A few resources to get you started if this is your first Flutter project:
+- [x] Acrescenta numeros ao clicar no botão.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 📱 TELAS DO PROJETO
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/54405709/110210600-20b3f180-7e71-11eb-8be8-fcadf9d55006.jpeg" alt="drawing" width="250"/> 
+
+
+## 🛠 LIBRARIES & TECNOLOGIAS USADAS 
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+
+- [MobX](https://pub.dev/packages/mobx)
+- [Flutter MobX](https://pub.dev/packages/flutter_mobx)
+- [MobX Codegen](https://pub.dev/packages/mobx_codegen)
+- [Build Runner](https://pub.dev/packages/build_runner)
+
+## 🚀 START NO PROJETO
+
+Faça os *imports* das bibliotecas dentro do arquivo ```pubspec.yaml``` , execute o comando  ```pub get``` , após feito a importação das dependência execute com ```flutter run``` ou de um *start* diretamente pela **IDE do Android Studio**.
+
+## ⚠ OBSERVAÇÕES ⚠
+
+Os plugin **MobX Codegen** eo **Build Runner**, tem que ficar dentro de ```dev_dependencies```
